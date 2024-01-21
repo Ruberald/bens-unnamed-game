@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://chd7kg1snbnc0"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_580po"]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(144, 0)
+shape = SubResource("WorldBoundaryShape2D_580po")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1408.0
+offset_bottom = 40.0
+color = Color(0, 1, 0.482353, 1)
